@@ -6,5 +6,5 @@ RUN apt-get update -qq \
     default-jre \
   && R CMD javareconf \
   && install2.r --error \
-    --repos 'http://cran.rstudio.com' \
+    --repos 'http://h2o-release.s3.amazonaws.com/h2o/rel-wheeler/2/R' \
     h2o
