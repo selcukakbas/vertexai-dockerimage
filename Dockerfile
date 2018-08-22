@@ -9,10 +9,10 @@ RUN apt-get update -qq \
   && R -e "install.packages(c('DBI', 'tm', 'replyr', 'tidytext', 'seplyr', 'stringi', 'pacman'), repos = 'http://cran.us.r-project.org')" \
   && R -e "install.packages(c('tidyr', 'caret', 'data.table', 'bigrquery', 'tictoc', 'pbapply'), repos = 'http://cran.us.r-project.org')" \
   && R -e "install.packages(c('rvest', 'imager'), repos = 'http://cran.us.r-project.org')" \
-  && R -e "devtools::install_github('bnosac/cronR')"
-  && R -e "devtools::install_github('karthik/rdrop2')"
-  && R -e "devtools::install_github('hadley/emo')"
-  && R -e "devtools::install_github('cloudyr/RoogleVision')"
+  && R -e "devtools::install_github('bnosac/cronR')" \
+  && R -e "devtools::install_github('karthik/rdrop2')" \
+  && R -e "devtools::install_github('hadley/emo')" \
+  && R -e "devtools::install_github('cloudyr/RoogleVision')" \
   && R CMD javareconf \
   && export ADD=shiny && bash /etc/cont-init.d/add \
   && install2.r --error \
