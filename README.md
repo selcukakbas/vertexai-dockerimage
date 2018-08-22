@@ -1,10 +1,11 @@
 # tidyverse-h2o 3.16.0.2
 
-[![](https://images.microbadger.com/badges/image/methodsconsultants/tidyverse-h2o.svg)](https://microbadger.com/images/methodsconsultants/tidyverse-h2o)
-[![](https://img.shields.io/docker/pulls/methodsconsultants/tidyverse-h2o.svg)](https://hub.docker.com/r/methodsconsultants/tidyverse-h2o)
-[![](https://img.shields.io/docker/automated/methodsconsultants/tidyverse-h2o.svg)](https://hub.docker.com/r/methodsconsultants/tidyverse-h2o/builds)
+[![](https://images.microbadger.com/badges/image/selcukakbas/tidyverse-h2o.svg)](https://microbadger.com/images/selcukakbas/tidyverse-h2o3.16.02)
+[![](https://img.shields.io/docker/pulls/selcukakbas/tidyverse-h2o3.16.02.svg)](https://hub.docker.com/r/selcukakbas/tidyverse-h2o3.16.02)
+[![](https://img.shields.io/docker/automated/selcukakbas/tidyverse-h2o3.16.02.svg)](https://hub.docker.com/r/selcukakbas/tidyverse-h2o3.16.02/builds)
 
 A docker container with RStudio Server, the tidyverse packages, and H2O.ai of version 3.16.0.2
+
 With Shiny Server
 
 
