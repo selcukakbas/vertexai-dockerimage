@@ -5,6 +5,7 @@
 [![](https://img.shields.io/docker/automated/methodsconsultants/tidyverse-h2o.svg)](https://hub.docker.com/r/methodsconsultants/tidyverse-h2o/builds)
 
 A docker container with RStudio Server, the tidyverse packages, and H2O.ai of version 3.16.0.2
+With Shiny Server
 
 
 [h2o 3.16.0.2 (rel-wheeler/2) version download link](http://h2o-release.s3.amazonaws.com/h2o/rel-wheeler/2/index.html)
