@@ -18,3 +18,10 @@ RUN apt-get update -qq \
   && install2.r --error \
     --repos 'http://h2o-release.s3.amazonaws.com/h2o/rel-wheeler/2/R' \
     h2o
+RUN R -e "remove.packages('DBI')" \
+  && R -e "remove.packages('bigrquery')"
+  
+RUN R -e "devtools::install_version('DBI', version = '0.8', repos = 'http://cran.us.r-project.org')" \
+  && R -e "devtools::install_version('bigrquery', version = '0.4.1', repos = 'http://cran.us.r-project.org')"
+  
+  
